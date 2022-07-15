@@ -1,0 +1,451 @@
+.background_img {
+  background-image: url('spy-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  }
+
+  .intro{
+    width: 1921px;
+  height: 1000px;
+  padding-top: 250px;
+  text-align: center;
+  }
+
+  .font1{
+    color: white;
+    font-style: oblique;
+    font-size: 200%;
+  }
+
+  .font2{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    font-size: 300%;
+  }
+
+  .container{
+    max-width: 1280px;
+padding: 40px 180px;
+width: 1250px;
+margin-right: auto;
+margin-left: auto;
+  }
+
+  .profile1{
+  text-align: center;
+  font-size: 54px;
+  font-weight: 300;
+  color: #22A39F;
+  font-family: 'Open Sans', sans-serif;
+  }
+
+  .profile2{
+    text-align: center;
+    font-size: 21px;
+  color: #727878;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1;
+  }
+
+  .row{
+    margin-right: -15px;
+margin-left: -15px;
+font-size: 15px;
+line-height: 1.64;
+color: #434242;
+font-family: 'Open Sans', sans-serif;
+  }
+
+  .col{
+    width: 240px;
+    float: left;
+    position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+color: #22A39F;
+font-size: 28px;
+font-weight: 300;
+font-family: 'Open Sans', sans-serif;
+  }
+
+
+  .background_img2{
+    background-image: url('spy-2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+  height: 700px;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  -ms-interpolation-mode: nearest-neighbor;
+  background-color: #22A39F;
+ background-blend-mode: luminosity;
+  }
+
+.col2{
+  width: 45%;
+  float: left;
+  position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+font-size: 18px;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+text-align: left;
+}
+
+.col3{
+  width: 55%;
+  float: left;
+  position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+font-size: 15px;
+font-weight: 400;
+font-family: 'Open Sans', sans-serif;
+text-align: left;
+}
+
+
+
+
+.col4{
+  float: left;
+  position: relative;
+min-height: 1px;
+padding-right: 15px;
+padding-left: 15px;
+color: #22A39F;
+font-size: 28px;
+font-weight: 300;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+/*.background_img3{
+  background-image: url('work.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: top;
+background-attachment: fixed;
+height: 700px;
+image-rendering: -moz-crisp-edges;
+image-rendering: crisp-edges;
+image-rendering: pixelated;
+-ms-interpolation-mode: nearest-neighbor;
+}*/
+
+
+#exp{
+  background-image: url('work.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  height: 100%;
+  background-color: #22A39F;
+ background-blend-mode: saturation;
+}
+
+
+
+
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+  width:150px;
+  height: 100px;
+  background-color:black;
+  color:white;
+  text-align:center;
+}
+
+
+body {
+  position: relative;
+}
+
+.nav-link{
+
+  color: white;
+}
+
+
+.nav-tabs .nav-link.active, .nav-tabs .show > .nav-link {
+  color: black;
+  background-color: #0AEEE7;
+}
+
+.nav-link:hover {
+  background-color: #666;
+  color: black;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #0AEEE7;
+    border-bottom-color: #0AEEE7;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  border-color: #0AEEE7;
+}
+
+
+
+
+#bg{
+  background-color: #434242;
+ background-blend-mode: saturation;
+
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa {
+  padding-top:10px;
+  font-size: 30px;
+  width: 50px;
+  height:50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
+/* Style the active class, and buttons on mouse-over */
+ /*.btn:hover {
+  background-color: #666;
+  color: black;
+}
+
+
+.active{
+  background-color: #22A39F;
+  color: black;
+}*/
+
+
+
+
+/*<div class="col2">
+                  <p style="font-size: 20px; font-weight: 505;">Indian Institute of Technology, Hyderabad</p>
+                  <p>2019 - 2023</p>
+                </div>
+
+                <div class="col3">
+                  Bachelors in Chemical Engineering
+                  <br>
+                  <strong>CGPA:</strong>
+                  8.44
+                  <br><br>
+                  Minor in Entreprenuership
+                  <br>
+                  <strong>CGPA:</strong>
+                  N/A
+                </div>
+
+
+
+                 <div class="col2">
+                  <p style="font-size: 20px; font-weight: 505;">Narayana Junior College</p>
+                  <p>2017 - 2019</p>
+                </div>
+
+                <div class="col3">
+                  XII (Telangana State Board of Intermediate Education)
+                  <br>
+                  <strong>Marks(%):</strong>
+                  97.8
+                </div>
+
+
+
+                                  <div style="font-family: 'Open Sans', sans-serif; text-align: center; color: white;">
+                    <h2  style="font-size: 54px; font-weight: 600; ">Experiences</h2>
+                    <hr style="margin: 40px 0px; border-color: #727878; opacity: 0.8; border-top: 1px solid #eee; border: 0;">
+                  </div>
+
+
+
+
+
+
+
+
+
+
+                  <nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+                <div class="vertical-menu">
+                  <a href="#Profile" class="active menu">Profile</a>
+                  <a href="#Educations" class="menu" >Educations</a>
+                  <a href="#Projects" class="menu">Projects</a>
+                  <a href="#Experiences" class="menu">Experiences</a>
+                  <a href="#Skills" class="menu">Skills</a>
+                </div>
+                </nav>
+
+
+                .blur-bgimage {
+  overflow: hidden;
+  text-align: left;
+}
+
+
+.blur-bgimage:before {
+  content: "";
+  position: absolute;
+  width : 100%;
+  height: 100%;
+  background: inherit;
+  z-index: 2;
+  opacity: 0.75;
+  background-color:#22A39F;
+}
+
+
+
+
+nav {
+  white-space: nowrap;
+  background: #37474F;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding-left:120px;
+  width: 230px;
+  padding-top:180px;
+}
+/* Only stick if you can fit *
+@media (min-height: 300px) {
+  nav ul {
+    position: fixed;
+    top: 0;
+  }
+}
+nav ul li a {
+  background-color: black;
+  color:white;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+  height: 100px;
+  text-align:center;
+  padding-top:38px;
+}
+nav ul li a.current {
+  background-color: #22A39F;
+
+}
+
+nav ul li a:hover {
+  background-color: #ccc;
+}
+
+nav ul li a.current {
+  background: green;
+}
+
+
+
+<nav>
+            <ul>
+              <li class="menu"><a href="#Profile">Profile</a></li>
+              <li class="menu"><a href="#Educations">Educations</a></li>
+              <li class="menu"><a href="#Projects">Projects</a></li>
+              <li class="menu"><a href="#Experiences">Experiences</a></li>
+              <li class="menu"><a href="#Skills">Skills</a></li>
+            </ul>
+          </nav>
+
+
+
+                <script>
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myDIV");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function() {
+          var current = document.getElementsByClassName("active");
+          if (current.length > 0) {
+            current[0].className = current[0].className.replace(" active", "");
+          }
+          this.className += " active";
+          });
+        }
+
+
+
+
+
+        function applyScrollSpy()
+{
+	$('#myDIV').on('activate.bs.scrollspy', function()
+	{
+		window.location.hash = $('.nav .active').attr('href').replace('#', '#/');
+	});
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </script>
+
+
+          <nav  id="list-example" class="navbar navbar-light bg-light" style="padding-left:100px; width:150px; position:fixed; top:165px">
+    <a class="list-group-item list-group-item-action btn" href="#Profile">Profile</a>
+    <a class="list-group-item list-group-item-action btn" href="#Educations">Educations</a>
+    <a class="list-group-item list-group-item-action btn" href="#Projects">Projects</a>
+    <a class="list-group-item list-group-item-action btn" href="#Experiences">Experiences</a>
+    <a class="list-group-item list-group-item-action btn" href="#Skills">Skills</a>
+  </nav>
